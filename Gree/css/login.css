@@ -1,0 +1,209 @@
+@charset "UTF-8";
+body {
+  height: 100% x;
+  width: 100%;
+  background: #FAFAF9;
+}
+
+#header {
+  width: 100%;
+  height: 50px;
+  background: #EFEEEC;
+}
+
+/* 公共样式 */
+.header_list, .Tab_list {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header_list {
+  width: 1140px;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.header_list .nav_l, .nav_r {
+  height: 30px;
+  line-height: 30px;
+}
+
+.header_list .nav_l, li {
+  font-size: 12px;
+  float: left;
+}
+
+.header_list .nav_l li a {
+  color: red;
+}
+
+.header_list .nav_l li {
+  color: #DCD0C3;
+}
+
+.nav_r li a {
+  color: #73726C;
+}
+
+.header_list .nav_r li {
+  color: #DCD0C3;
+}
+
+.header_list .nav_r li:hover a {
+  color: red;
+}
+
+#logo {
+  height: 119px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+#logo .logo {
+  width: 400px;
+}
+
+#Tab-title {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.Tab_list {
+  height: 40px;
+  width: 1060px;
+  padding-left: 140px;
+}
+
+.Tab_list li {
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #747282;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Tab_list .Tab_show {
+  color: #00ACE3;
+  border-top: 2px solid #00ACE3;
+  border-left: 1px solid #EAE9E6;
+  border-right: 1px solid #EAE9E6;
+  background: #fff;
+}
+
+/* 注册页面 */
+.login_list {
+  min-height: 320px;
+  background: #fff;
+  width: 540px;
+  margin: 0 auto;
+  padding: 120px 260px;
+  display: none;
+}
+
+.login_list .user {
+  width: 700px;
+  height: 34px;
+}
+
+.login_list .password {
+  margin-top: 46px;
+  width: 700px;
+  height: 34px;
+  margin-bottom: 46px;
+}
+
+.login_list .user .inpu_txt {
+  line-height: 34px;
+  width: 260px;
+  height: 34px;
+  font-size: 12px;
+  color: #74736d;
+  border: 1px solid #e9e8e5;
+  border-right: none;
+}
+
+.login_list .password .inpu_pasw {
+  line-height: 34px;
+  width: 260px;
+  height: 34px;
+  font-size: 12px;
+  color: #74736d;
+  border: 1px solid #e9e8e5;
+  border-right: none;
+}
+
+.login_list .iconfont {
+  display: inline-block;
+  width: 20px;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #e9e8e5;
+  background: #fff;
+  border-left: none;
+  cursor: pointer;
+}
+
+.login_list span {
+  line-height: 34px;
+  height: 34px;
+  font-size: 12px;
+  color: red;
+}
+
+.login_list legend {
+  line-height: 34px;
+  margin: 0 4px;
+  height: 34px;
+  display: inline-block;
+  font-size: 12px;
+  color: #74736d;
+}
+
+.securityCode {
+  width: 700px;
+  height: 34px;
+  margin-bottom: 34px;
+}
+.input-val{
+  height: 34px;
+  width: 180px;
+}
+
+.Code {
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.Smt {
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  margin-left: 42px;
+  color: #74736d;
+}
+
+/* 注册邮箱 */
+.cellphone {
+  margin-top: 60px;
+  width: 700px;
+  height: 34px;
+}
+
+.cellphone .inpu_txt {
+  line-height: 34px;
+  width: 260px;
+  height: 34px;
+  font-size: 12px;
+  color: #74736d;
+  border: 1px solid #e9e8e5;
+  border-right: none;
+}
+
+/*# sourceMappingURL=login.css.map */

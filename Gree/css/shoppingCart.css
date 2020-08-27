@@ -1,0 +1,319 @@
+@charset "UTF-8";
+.logo_list, .shoppingCart_txt, .shoppingCart_show, .selecGoods, .accounts_1, .browse, .link_list, .bottom_list {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo_list {
+  height: 97px;
+}
+
+.logo_list p {
+  display: inline-block;
+  height: 97px;
+  width: 486px;
+  background: url(../imges/gouwuche_03.jpg) no-repeat center;
+}
+
+.shoppingCart_txt {
+  height: 60px;
+  line-height: 60px;
+}
+
+.shoppingCart_txt .icon {
+  font-size: 36px;
+  color: red;
+}
+
+.shoppingCart_txt p {
+  font-size: 18px;
+  color: #73726C;
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+.shoppingCart_show {
+  height: 40px;
+  background: red;
+  margin-bottom: 6px;
+}
+
+.select {
+  width: 600px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.unit, .count, .total, .operation {
+  height: 40px;
+  width: 120px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.select em {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* 商品样式 */
+.selecGoods {
+  min-height: 70px;
+  width: 1170px;
+  padding-left: 30px;
+  border-left: 1px solid #EAE9E6;
+  border-top: 1px solid #EAE9E6;
+  border-bottom: 1px solid #EAE9E6;
+  margin-bottom: 14px;
+}
+
+.shopping_Boss {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #EAE9E6;
+  margin-bottom: 6px;
+}
+
+.shopping_Boss a {
+  font-size: 14px;
+  color: #747282;
+}
+
+.shopping_Boss a:hover {
+  color: red;
+}
+
+.list_box > li {
+  height: 100px;
+  line-height: 100px;
+}
+
+.selecGoods .list_box {
+  height: 100px;
+  width: 1170px;
+}
+
+.list_box .producName {
+  height: 69px;
+  width: 70px;
+  margin-left: 100px;
+  padding-top: 18px;
+}
+
+.list_box .Wares {
+  width: 356px;
+  height: 80px;
+  margin-left: 4px;
+  padding-top: 20px;
+}
+
+.Wares p a {
+  display: block;
+  line-height: 30px;
+  color: #73726C;
+}
+
+.Wares p a:hover {
+  color: red;
+}
+
+.unit_show {
+  font-size: 14px;
+  color: #747282;
+  width: 120px;
+  margin-left: 12px;
+}
+
+.producName {
+  width: 70px;
+  height: 70px;
+}
+
+.producName a img {
+  border: 1px solid #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.producName a img:hover {
+  border: 1px solid #ccc;
+}
+
+.selecGoods .list_box .count_show {
+  width: 120px;
+  height: 60px;
+  padding-top: 40px;
+}
+
+.count_show .aa {
+  width: 20px;
+  display: block;
+  background: white;
+  float: left;
+}
+
+.count_show .bb {
+  width: 30px;
+  display: block;
+  background: white;
+  text-align: center;
+  font-size: 12px;
+  float: left;
+}
+
+.count_show .cc {
+  width: 20px;
+  display: block;
+  background: white;
+  float: left;
+}
+
+.unit_money {
+  font-size: 14px;
+  color: #73726C;
+  font-weight: bold;
+  width: 120px;
+  margin: 0 6px;
+}
+
+.operation_del {
+  font-size: 14px;
+  color: #73726C;
+  width: 120px;
+}
+
+.operation_del a:hover {
+  color: red;
+}
+
+.accounts_1 {
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.accounts_show {
+  height: 40px;
+  line-height: 40px;
+  width: 200px;
+  font-size: 14px;
+  color: #73726C;
+}
+
+.accounts_show span {
+  font-size: 14px;
+  color: #73726C;
+}
+
+.accounts_show a {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #73726C;
+}
+
+.accounts_show a:hover {
+  color: red;
+}
+.accounts_1 .accounts_txt{
+  width: 570px;
+}
+ .accounts_txt {
+  width:570px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 16px;
+  color: #73726C;
+}
+
+.accounts_shop {
+  min-width:306px;
+  font-size: 14px;
+  color: #73726C;
+}
+
+.accounts_shop span {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.accounts_btn {
+  margin-top: 2px;
+  width: 120px;
+  height: 36px;
+  line-height: 36px;
+  color: white;
+  background: red;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+.accounts_1 .accounts_btn:hover {
+  background: orange;
+}
+
+/* 浏览记录 */
+.browse {
+  min-height: 30px;
+}
+
+.browse_show {
+  width: 160px;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+.browsingHistory {
+  height: 300px;
+  border-left: #EAE9E6 1px solid;
+  border-top: #EAE9E6 1px solid;
+  border-bottom: #EAE9E6 1px solid;
+}
+
+.browsingHistory ul {
+  width: 202px;
+  height: 224px;
+  text-align: center;
+  padding-top: 16px;
+  margin: 0 12px;
+}
+
+.browsingHistory ul li {
+  margin: 8px;
+}
+
+.browsingHistory ul li img {
+  width: 202px;
+  height: 202px;
+  border: 1px solid #fff;
+}
+
+.browsingHistory ul li img:hover {
+  border: 1px solid #000;
+}
+
+.browse .browsingHistory ul li a {
+  display: inline-block;
+  width: 202px;
+  height: 202px;
+  font-size: 10px;
+  color: #73726C;
+  line-height: 12px;
+}
+
+.browse .browsingHistory ul li a:hover {
+  color: red;
+}
+
+/*# sourceMappingURL=shoppingCart.css.map */

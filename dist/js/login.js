@@ -1,0 +1,1 @@
+"use strict";for(var liS=document.querySelectorAll(".li_nav"),loginS=document.querySelectorAll(".login_list"),i=0;i<liS.length;i++)liS[i].index=i,liS[i].onclick=function(){for(var l=0;l<liS.length;l++)liS[l].className="",loginS[l].style.display="none";this.className="Tab_show",loginS[this.index].style.display="block"};

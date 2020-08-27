@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车页面</title>
+   
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/shoppingCart.css">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <script src="./bottstrap框架插件/jquery-1.12.4.js"></script>
+    <script src="./js/shoppingCart.js"></script>
+    <script src="./bottstrap框架插件/layer/layer.js"></script>
+    <!-- <script src="./bottstrap框架插件/layer.js"></script> -->
+    <!-- <script src="./bottstrap框架插件/jquery-1.12.4.js"></script> -->
+</head>
+<body>
+    <div id="header">
+        <div class="header_list">
+            <ul class="nav_l left">
+                <li><a href="./register.html">登录&nbsp;&nbsp;&nbsp;</a></li>
+                <li>|</li>
+                <li><a href="./login.html">&nbsp;&nbsp;&nbsp;注册&nbsp;&nbsp;&nbsp;</a></li>
+                <li>|</li>
+                <li class="nav_oncilck"><a href="">&nbsp;&nbsp;&nbsp;移动端下载&nbsp;&nbsp;&nbsp;
+                    
+                </a></li>
+                <li>|</li>
+                <li class="nav_oncilck"><a href="">&nbsp;&nbsp;&nbsp;卖家移动端下载&nbsp;&nbsp;&nbsp;</a></li>
+                
+            </ul>
+
+            <ul class="nav_r right">
+                <li><a href="./index.html">&nbsp;&nbsp;&nbsp;首页商城&nbsp;&nbsp;&nbsp;</a></li>
+                <li>|</li>
+                <li><a href="">&nbsp;&nbsp;&nbsp;我的订单&nbsp;&nbsp;&nbsp;</a></li>
+                <li>|</li>
+                <li><a href="">&nbsp;&nbsp;&nbsp;开店申请&nbsp;&nbsp;&nbsp;</a></li>
+                <li>|</li>
+                <li><a href="./login.html">&nbsp;&nbsp;&nbsp;注册分销商&nbsp;&nbsp;&nbsp;</a></li>
+                <li>|</li>
+                <li><a href="">&nbsp;&nbsp;&nbsp;我的收藏&nbsp;&nbsp;&nbsp;</a></li>
+                <li>|</li>
+                <li><a href="">&nbsp;&nbsp;&nbsp;客服中心&nbsp;&nbsp;&nbsp;</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="logo_list">
+        <h1 class="left">
+            <img src="./imges/1.gif" alt="">
+        </h1>
+        <p  class="right"></p>
+    </div>
+    <div class="shoppingCart_txt">
+        <i class="iconfont icon-qicheqianlian- icon left"></i>
+        <p class="left">我的购物车</p>
+    </div>
+    <div class="shoppingCart_show">
+        <!-- 全选 -->
+        <div class="select left">
+            <input type="checkbox" name="" id="checkAll"> <em>全选 &nbsp;&nbsp;商品信息 </em>
+        </div>
+        <div class="unit left">单价</div>
+        <div class="count left">数量</div>
+        <div class="total left">合计</div>
+        <div class="operation left">操作</div>
+    </div>
+    <!-- 选择的商品 -->
+    <div class="selecGoods">
+        <div class="shopping_Boss">
+            <input type="checkbox" name="" id="checkedAllBox"> <a href="./index.html">格力董明珠店</a>
+        </div>
+        <!-- 加入购物车的是商品 -->
+        <ul class="list_box">
+            <li>
+                <input type="checkbox" name="ids" id="items">
+            </li>
+           <!-- 商品名称 -->
+            <li class="producName">
+                <a href=""><img src="./imges/show.png" alt=""></a> 
+            </li>
+            <!-- 商品类型 -->
+            <li class="Wares">
+                <p>
+                   <a href="" class="Wares_tit">晶弘三门冰箱 变频270L 智能变频 风... </a>
+                    <a href="">颜色：浮光金</a>
+                </p>
+            </li>
+            <li class="unit_show">$3900
+            </li>
+            <li class="count_show">
+                <input type="button" value="-"  class="aa cutNum">
+                <input type="text" value="1" class="bb txt_show">
+                <input type="button" value="+" class="cc addNum1">
+            </li>
+            <li class="unit_money">$3900
+            </li>
+            <li class="operation_del">
+                   <a href="" class="operation_deletel"> 【删除】</a>
+                   <!-- <a href=""> 【删除】</a> -->
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- 结算 -->
+
+
+  
+   <!-- <div class="accounts_show left">
+    <input type="checkbox" name="" id="">
+    <span>全选</span>
+    <a href="">【批量删除】</a>
+   </div> -->
+    <!-- <p class="left">"去结算"查看满减/折扣优惠</p>
+    <p class="left"> 共选中<span>0</span>件商品,总计(不含运费): <span>$0</span> </p>
+    <input type="button" class="left"> -->
+
+
+ 
+
+<div class="accounts_1">
+  
+   <div class="accounts_show left">
+    <input type="checkbox" name="" class="checkedAllBox">
+    <span>全选</span>
+    <a href="">【批量删除】</a>
+   </div>
+     <p class="left accounts_txt"> "去结算" 查看满减/折扣优惠</p> 
+     <p class="left accounts_shop"> 共选中<span class="fontColor1">2</span>件商品,总计(不含运费): <span class="allPrice1">$ 4244</span> </p>
+    <input type="button" class="left accounts_btn" value="$ 4244  去结算">
+</div>
+<!-- 浏览记录 -->
+<div class="browse">
+    <input type="button" class="browse_show" value="浏 览 记 录">
+<!-- 浏览器展示 -->
+    <div class="browsingHistory">
+        <ul class="left">
+            <li>
+                <img src="./imges/记录1.jpg" alt="">
+            </li>
+            <li>
+                <a href="">晶弘三门冰箱 变频270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</a>
+            </li>
+        </ul>
+        <ul class="left">
+            <li>
+                <img src="./imges/记录2.jpg" alt="">
+            </li>
+            <li>
+                <a href="">晶弘十字门开门冰箱 408L 持久保鲜 长效净味 BCD-408EQCL 现代白色</a>
+            </li>
+        </ul>
+        <ul class="left">
+            <li>
+                <img src="./imges/记录3.jpg" alt="">
+            </li>
+            <li>
+                <a href="">晶弘三门冰箱 变频270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</a>
+            </li>
+        </ul>
+        <ul class="left">
+            <li>
+                <img src="./imges/记录4-1.jpg" alt="">
+            </li>
+            <li>
+                <a href="">冷静悦变频冷暖1.5匹3级能效挂机空调KFR-32GW/(32575)FNAa-A3(含管)</a>
+            </li>
+        </ul>
+        <ul class="left">
+            <li>
+                <img src="./imges/记录4.jpg" alt="">
+            </li>
+            <li>
+                <a href="">【新国际】冷静王变频冷暖正1.5匹1级能效挂机空调KFR-</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<!-- link -->
+<div class="link_list">
+    <ul class="left">
+        <li><a href="">购物指南</a></li>
+        <li><a href="">格力境外购买须知</a></li>
+        <li><a href="">免费声明</a></li>
+    </ul>
+    <ul class="left">
+        <li><a href="">售后服务</a></li>
+        <li><a href="">空调常见问题说明</a></li>
+        <li><a href="">服务时效</a></li>
+        <li><a href="">安装/维修</a></li>
+    </ul>
+    <ul class="left">
+        <li><a href="">常见问题</a></li>
+        <li><a href="">空调内机条获取方法</a></li>
+        <li><a href="">订单常见问题说明</a></li>
+        <li><a href="">空调常见问题说明</a></li>
+        <li><a href="">冰箱常见问题说明</a></li>
+    </ul>
+    <ul class="left">
+        <li><a href="">联系我们</a></li>
+       
+        <li><a href="">空调常见问题说明</a></li>
+         <li><a href="">联系我们</a></li>
+    </ul>
+    <ul class="left">
+        <li><a href="">服务查询</a></li>
+        <li><a href="">配送服务查询</a></li>
+    </ul>
+    <ul class="left">
+        <li><a href="">商城支付</a></li>
+        <li><a href="">空调常见问题说明</a></li>
+        <li><a href="">冰箱常见问题说明</a></li>
+        <li><a href="">商城支付</a></li>
+        
+    </ul>
+
+</div>
+<div class="bottom_list">
+    <p>珠海格力电器股份有限公司版权所有 粤ICP备05006515号</p>
+    <img src="./images/btn_03.jpg" alt="">
+</div>
+
+</body>
+</html>

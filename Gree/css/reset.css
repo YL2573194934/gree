@@ -1,0 +1,87 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a, u {
+  color: #000;
+  text-decoration: none;
+}
+
+b, strong {
+  font-weight: normal;
+}
+
+em, i {
+  font-style: normal;
+}
+
+img {
+  border: 0;
+  display: block;
+  /*转成了块 清除图片下面的大于3px的间距*/
+}
+
+input {
+  outline: none;
+  /*清除input输入框中聚焦时的蓝色边框*/
+}
+
+/* 万能清除法“高度塌陷” */
+.clear_fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.clear_fix {
+  zoom: 1;
+}
+
+/* 公共的样式 */
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.border_none {
+  border: 0 !important;
+}
+
+.margin_none {
+  margin: 0 !important;
+}
+
+.padding_none {
+  padding: 0 !important;
+}
+
+.padding_right {
+  padding-right: 0 !important;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+/*# sourceMappingURL=reset.css.map */
